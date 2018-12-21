@@ -23,7 +23,7 @@
                     context = document.body;
                 }
 
-                rekapi = new Rekapi(context);
+                rekapi = new Rekapi.Rekapi(context);
                 actorConfigNodes = element.find("actor");
 
                 scope.rekapi = scope.rekapi || [];
